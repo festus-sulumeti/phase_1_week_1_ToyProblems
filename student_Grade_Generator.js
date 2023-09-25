@@ -1,3 +1,11 @@
+/**
+ * This program determines a student's grade based on their marks.
+
+The readline module, which enables the program to read user input from the console, is first imported. A new readline interface object is then created, which will be used to interact with the user.
+
+Next, a function called calculateGrade() is defined by the application.
+ */
+
 const readline = require('readline');
 
 const r1 = readline.createInterface({
