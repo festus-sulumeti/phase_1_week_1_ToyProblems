@@ -50,3 +50,17 @@ It develops a readline interface (rl) that enables command-line communication be
 The user is prompted to enter the student's grades using the function 'calculateGrade', which uses 'rl.question' and specifies that the acceptable range is between 0 and 100. The callback function receives the user's input as the 'input' parameter.
 
 It transforms the user's input into a floating-point number inside the callback method for "rl.question."
+
+## Prerequistes
+1. Any Editor (Best to use will be vs code)
+2. Any web browser with the latest ES version
+3. Quokka(OPtional)
+
+## Languages and technology used
+1. JavaScript
+
+## Steps to run the project
+1. Clone the repository
+2. Extract all the files
+3. Open the file in vsCode
+4. run the files in the browser or use the quokkka extennsion in vscode both work the same way
