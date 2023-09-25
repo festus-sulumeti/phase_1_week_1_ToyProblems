@@ -1,15 +1,13 @@
 // Description: This program calculates the number of demerit points a driver receives for driving over the speed limit.
-/*
-This program calculates the number of demerit points a driver receives for driving over the speed limit.
+/**\
+ * This program determines how many demerit points a driver will accrue for exceeding the posted speed limit.
 
-The program first imports the readline module, which allows it to read user input from the console. It then creates a new readline interface object, which will be used to communicate with the user.
+The readline module, which enables the program to read user input from the console, is first imported. A new readline interface object is then created, which will be used to interact with the user.
 
-Next, the program defines a function called calculateDemeritPoints(). This function takes a single argument, the driver's speed in kilometers per hour. It then calculates the number of demerit points the driver receives by subtracting the speed limit from the driver's speed and dividing by 5.
+Next, a function called calculateDemeritPoints() is defined by the software. The driver's speed in kilometers per hour is the only input for this function. The speed limit is then subtracted from the motorist's speed and divided by five to determine how many demerit points the driver will earn.
 
-The calculateDemeritPoints() function also checks if the number of demerit points is greater than or equal to 12. If it is, the function prints a message to the console saying that the driver's license is suspended. Otherwise, the function prints a message to the console saying how many demerit points the driver has received.
-
-Finally, the program prompts the user for their speed. It then converts the user's input to a number and calls the calculateDemeritPoints() function to calculate the number of demerit points the driver has received. The program then prints the number of demerit points to the console and closes the readline interface object.
-*/
+The calculateDemeritPoints() function also determines if there are more than or equal to 12 demerit points. If so, a message is printed to the console by the function.
+ */
 // Importing the readline module
 const readline = require('readline');
 
