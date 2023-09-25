@@ -56,9 +56,12 @@ It transforms the user's input into a floating-point number inside the callback 
 1. Any Editor (Best to use will be vs code)
 2. Any web browser with the latest ES version
 3. Quokka(OPtional)
+4. Use code runner
 
 ## Languages and technology used
 1. JavaScript
+2. Install the readline node module
+3. install node 
 
 ## Steps to run the project
 1. Clone the repository

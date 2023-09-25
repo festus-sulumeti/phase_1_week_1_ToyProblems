@@ -14,7 +14,7 @@ const r1 = readline.createInterface({
 });
 
 function calculateGrade() {
-  rl.question("Enter student's marks (between 0 and 100): ", function(input) {
+  r1.question("Enter student's marks (between 0 and 100): ", function(input) {
     const userInput = parseFloat(input);
 
     if (isNaN(userInput) || userInput < 0 || userInput > 100) {
@@ -33,12 +33,11 @@ function calculateGrade() {
         studentGrade = 'E';
       }
 
-      console.log(` The Student's grade: ${studentGrade}`);
+      console.log(`The Student's grade: ${studentGrade}`);
     }
-    
-    rl.close();
+
+    r1.close();
   });
 }
-
 
 calculateGrade();

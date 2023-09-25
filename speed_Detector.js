@@ -37,6 +37,7 @@ function calculateDemeritPoints(speed) {
   }
 }
 
+// Waiting for user input
 rl.question("Enter the car's speed (in km/h): ", function (input) {
   const carSpeed = parseFloat(input);
 
