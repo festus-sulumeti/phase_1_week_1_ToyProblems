@@ -19,7 +19,8 @@ The program is meant to calculate an individual's net salary, that is based on t
 
 
 ## Need to work on
-1. Net Salary Calculator
+
+## 1. Net Salary Calculator
 
 A) The'readline' module is imported, providing a user interface for reading input from the command line.
 
@@ -31,7 +32,7 @@ c) The 'rl.question' method is used inside 'calculateNetSalary' to prompt the us
 
 
 
-2. speed_Detector
+## 2. speed_Detector
 
 The'readline' module, which offers an interface for reading input from the command line, will be imported first.
 
@@ -39,7 +40,7 @@ b) It develops a readline interface (rl) that enables command-line communication
 
 
 
-3. student_Grade_Generator
+## 3. student_Grade_Generator
 
 The'readline' module, which offers an interface for reading input from the command line, is imported first.
 
